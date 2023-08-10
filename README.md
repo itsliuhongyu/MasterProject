@@ -1,4 +1,4 @@
-This website is my Master's Project for the MS Data Journalism program at Columbia University. You can access the story here. Below are some explanations of how and where I gathered data and information.
+This website is my Master's Project for the MS Data Journalism program at Columbia University. You can access the story [here](https://itsliuhongyu.github.io/MasterProject/). Below are some explanations of how and where I gathered data and information.
 
 ## 1. Hurricane Ida Precipitation Map:
 
