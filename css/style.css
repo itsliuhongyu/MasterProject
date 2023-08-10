@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+}
+
+a {
+    color: #4e90c2;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 40vh;
+    padding-bottom: 20vh;
+    font-size: 0.7rem;
+    font-family: 'nyt-franklin';
+    text-align: center;
+    color:white;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'nyt-cheltenham', Georgia, 'Times New Roman';
+    margin: auto;
+    text-align: left;
+}
+
+span{
+    font-family: 'nyt-imperial';
+    font-weight: 100;
+    color: rgb(176, 176, 176);
+    padding-top: 1vh;
+    text-align: center;
+}
+
+.byline {
+    width: 600px;
+    margin: auto;
+    padding-top: 2vh;
+}
+
+
+.date {
+    font-family: 'nyt-franklin', Georgia;
+    color: white;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.headline {
+    padding-top: 50vh;
+    width: 80%;
+    color: white;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'nyt-cheltenham', Georgia, 'Times New Roman';
+    margin: auto;
+    text-align: center;
+}
+
+.name {
+    font-family: 'nyt-franklin', Georgia;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.photo {
+    padding-top: 5vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 90vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 700px) {
+    .photo {
+        padding-top: 5vh;
+        width: 90vw;
+        margin: auto;
+    }
+    
+    .photo img {
+        max-height: 50vh;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .sectionhead {
+        padding-top: 5vh;
+        max-width: 90vw;
+        margin-left: 5vw;
+        margin-right: auto;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'nyt-cheltenham', Georgia, 'Times New Roman';
+        margin: auto;
+        text-align: left;
+        max-width: 90vw;
+    }
+}
+
+.sectionhead {
+    padding-top: 5vh;
+    width: 600px;
+    margin: auto;
+}
+
+.subhead {
+    width: 800px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: 'nyt-cheltenham-small', Georgia, 'Times New Roman';
+    margin: auto;
+    text-align: center;
+}
+
+.text {
+    padding-top: 5vh;
+    width: 600px;
+    margin: auto;
+}
+
+.top-video {
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+.paragraph {
+    color: white;
+    font-size: 20px;
+    font-family: 'nyt-imperial';
+    font-weight: 300;
+    line-height: 1.75rem;
+}
+
+
+.illustration {
+    width: 1000px;
+    margin: auto;
+    padding-top: 5vh;
+}
+
+@media (min-width: 1050px) {
+    .illustration {
+        width: 1000px;
+        max-height: 100vh;
+    }
+}
+
+
+/* For Mobile */
+@media (max-width: 650px) {
+    .illustration {
+        width: 90%;
+    }
+
+    .text, .byline{
+        width: 90%;
+    }
+
+    .credit {
+        width: 90%;
+        padding-top: 1vh;
+        margin-left: 3vw;
+        font-size: 0.8rem;
+    }
+
+    .headline {
+        padding-top: 60vh;
+        width: 90%;
+        color: white;
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'nyt-cheltenham', Georgia, 'Times New Roman';
+        margin: auto;
+        text-align: center;
+    }
+
+    .subhead {
+        width: 90%;
+        color: white;
+        font-size: 0.7rem;
+        font-weight: 300;
+        font-family: 'nyt-cheltenham-small', Georgia, 'Times New Roman';
+        margin: auto;
+        text-align: center;
+    }
+    
+
+}
+
+@media (min-width: 651px) and (max-width: 1050px) {
+    .illustration {
+        width: 750px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
