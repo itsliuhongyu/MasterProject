@@ -24,20 +24,17 @@ footer {
 
 h3 {
     color: white;
-    font-size: 1.5rem;
-    font-style: italic;
+    font-size: 2.5rem;
     font-weight: 600;
     font-family: 'nyt-cheltenham', Georgia, 'Times New Roman';
-    margin: auto;
+    margin: 110px auto 50px auto;
     text-align: left;
 }
 
 span{
     font-family: 'nyt-imperial';
     font-weight: 100;
-    color: rgb(176, 176, 176);
-    padding-top: 1vh;
-    text-align: center;
+    color: rgb(176, 176, 176)
 }
 
 .byline {
@@ -46,6 +43,11 @@ span{
     padding-top: 2vh;
 }
 
+.credit {
+    padding-top: 1vh;
+    width: 600px;
+    margin: auto;
+}
 
 .date {
     font-family: 'nyt-franklin', Georgia;
@@ -75,7 +77,7 @@ span{
 
 .photo {
     padding-top: 5vh;
-    width: 80vw;
+    width: 600px;
     margin: auto;
 }
 
